@@ -2,10 +2,6 @@ package Problemas;
 
 public class Problema1 extends Problema {
 	public void setResultado(int i) {
-		sumaNumerosNaturales(i);
-	}
-
-	private static void sumaNumerosNaturales(int i) {
 		int suma = 0;
 
 		for (int a = 1; a < i; a++) {
@@ -13,8 +9,6 @@ public class Problema1 extends Problema {
 				suma = suma + a;
 			}
 		}
-		System.out.println("PROBLEMA 001 || La suma es: " + suma);
-
+		System.out.println("PROBLEMA " + getId() + " || La suma es: " + suma);
 	}
-
 }

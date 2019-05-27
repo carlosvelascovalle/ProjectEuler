@@ -13,8 +13,8 @@ public class Problema2 extends Problema {
 				sumaPares += fibo;
 			}
 		}
-		System.out.println(
-				"PROBLEMA 002 || La suma de los primeros 4.000.000 numeros es: "
-						+ sumaPares);
+		System.out.println("PROBLEMA " + getId()
+				+ " || La suma de los primeros 4.000.000 numeros es: "
+				+ sumaPares);
 	}
 }
